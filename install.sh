@@ -12,9 +12,9 @@ vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 
 # tpopes' commentary.vim
 mkdir -p ~/.vim/pack/tpope/start
-git clone https://tpope.io/vim/commentary.git ~/.vim/pack/tpope/start
+git clone https://tpope.io/vim/commentary.git ~/.vim/pack/tpope/start/commentary
 vim -u NONE -c "helptags commentary/doc" -c q
 
 # tpope's surround
-git clone https://tpope.io/vim/surround.git ~/.vim/pack/tpope/start
+git clone https://tpope.io/vim/surround.git ~/.vim/pack/tpope/start/surround
 vim -u NONE -c "helptags surround/doc" -c q
